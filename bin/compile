@@ -48,7 +48,7 @@ fi
 BUILDCMD="./gradlew"
 chmod +x ${BUILD_DIR}/gradlew
 
-BUILDCMD="$BUILDCMD $GRADLE_TASK"
+BUILDCMD="$BUILDCMD stage"
 
 cd $BUILD_DIR
 
